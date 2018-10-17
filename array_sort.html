@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+      <p id="demo"></p>
+
+      <!-- Just Simple sort with accending Order -->
+
+      <!-- <script>
+         var planet = ['mars','vanus','earth','jupiter','saturn'];
+        var res =  planet.sort();
+         document.getElementById('demo').innerHTML = res;
+      </script> -->
+
+  <!-- Array Reverse order -->
+
+  <!-- <script>
+     var colors = ['red','blue','green','yellow','orange'];
+      colors.reverse();
+      document.getElementById('demo').innerHTML = colors;
+     document.getElementById('demo').innerHTML = colors.sort();
+  </script> -->
+
+
+  <!-- array nemaric sort with accending -->
+
+   <!-- <script>
+     var numbers = [45,89,2,6,40,75,52,78];
+     numbers.sort(
+         function(a,b){
+             return a - b;
+         }
+     );
+     document.getElementById('demo').innerHTML = numbers;
+   </script> -->
+
+
+   <!-- array numaric sort with desecing order -->
+
+   <!-- <button onclick="reverse()">Reverse</button>
+   <script>
+      var numbers = [12,432,4,123,56,767,54,345];
+      document.getElementById('demo').innerHTML = numbers;
+      function reverse(){
+          numbers.sort(
+              function(a,b){
+                  return b - a;
+              }
+          );
+          document.getElementById('demo').innerHTML = numbers;
+      }
+   </script> -->
+
+    <!-- numerically vs alphabatic -->
+
+      <!-- <button onclick="numeric()">Numeric</button>
+      <button onclick="alphabatic()">Alphabatic</button>
+      <script>
+        var number = [12,543,23,43,234,254,1,53];
+        document.getElementById('demo').innerHTML = number;
+        function alphabatic(){
+            number.sort();
+            document.getElementById('demo').innerHTML = number;
+        }
+        function numeric(){
+            number.sort(
+                function (a,b){
+                    return a - b;
+                }
+            );
+            document.getElementById('demo').innerHTML = number;
+        }
+      </script> -->
+
+      <!-- user Input -->
+
+      <!-- <button onclick="getValue()">Name</button>
+      <script>
+          function getValue(){
+              var name = prompt('What is Your Name','Enter your name');   
+              document.write('Your name is : '+ name);
+          }
+       </script> -->
+
+
+      <!-- set Random value -->
+      <!-- <button onclick="myfunction()">Click</button>
+        <script>
+           var persons = ['rakib','limon','hasan','jahid','javar','jamel'];
+           document.getElementById('demo').innerHTML = presons;
+           function myfunction(){
+               persons.sort(
+                   function(a,b){
+                       return 4 - Math.random();
+                   }
+               );
+               document.getElementById('demo').innerHTML = persons;
+           }
+        </script> -->
+
+     <!-- Max number of the array -->
+     <!-- <script>
+        var numbers = [45,8,5787,256,36,454,455];
+        document.getElementById('demo').innerHTML = myArray(numbers);
+        function myArray(num){
+            return Math.max.apply(null,num);
+        }
+     </script> -->
+
+     <!-- array min number -->
+     <!-- <button onclick=" document.getElementById('demo').innerHTML = myFunction(numbers)">Click</button>
+     <script>
+       var numbers = [123,45,23,12,565,1,65];
+       document.getElementById('demo').innerHTML = numbers;
+        function myFunction(number){
+            return Math.min.apply(null,number);
+        }
+
+     </script>
+      -->
+      <!-- <button onclick="myfunction()">Click</button>
+     <script>
+      var persons = ['rakib','limon','jafar','hasan','majed'];
+     // var numbers = [12,5,8,7,9,6,4,9,74];
+     document.getElementById('demo').innerHTML = persons;
+     function myfunction(){
+         persons.sort(
+             function(a,b){
+                 return  Math.random();
+             }
+         );
+         document.getElementById('demo').innerHTML = persons;
+     }
+    </script> -->
+
+</body>
+</html>

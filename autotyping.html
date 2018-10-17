@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Auto Typing</title>
+</head>
+<body>
+	   <form action="" method="post">
+	   	  <textarea name="commitbox" id="" onclick="myfunction()" cols="39" rows="5"></textarea>
+	   </form>
+	  <!--  <button onclick="myfunction()">click</button> -->
+<p id="demo"></p>
+	   <script>
+	   	  let i = 0;
+	   	  let txt = 'this is amazing website i ever seen';
+	   	   let speed = 120;
+
+	   	   function myfunction(){
+	   	   	  if (i < txt.length) {
+                document.getElementById('demo').innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(myfunction,speed);
+	   	   	  }
+	   	   }
+	   </script>
+</body>
+</html>
